@@ -1,0 +1,46 @@
+<html>
+<head>
+<script type="text/javascript" language="javascript">
+function show_detail(str)
+{
+	var req=new XMLHttpRequest();
+	req.open("GET","horror.php?q="+str,true);
+	req.send(null);
+	req.onreadystatechange=function()
+	{
+	  if(req.readyState==4 && req.status==200)
+	  {
+	    document.getElementById("res").innerHTML=req.responseText;
+	  }
+	}
+}
+</script>
+ 	
+<style>
+
+</style>
+</head>
+<body bgcolor="grey">
+<h1>No of books we have in horror section</h1>
+<ol type="1">
+<li>House of Leaves</li>
+<li>At the Mountains of Madness</li>
+<li>The Bad Seed</li>
+<li>Beloved</li>
+<li>The Bloody Chamber </li>
+<li>Carrie</li>
+<form>
+<h2>Choose horror item you want :</h2> <br>
+<select name="items" onChange="show_detail(this.value)">
+<option>Select Item</option>
+<option>House of Leaves</option>
+<option>At the Mountains of Madness</option>
+<option>The Bad Seed</option>
+<option>Beloved</option>
+<option>The Bloody Chamber</option>
+<option>Carrie</option>
+</select>
+</form>
+<div id="res"><h2> horror Item Details are displayed here :</h2></div>
+</body>
+</html>

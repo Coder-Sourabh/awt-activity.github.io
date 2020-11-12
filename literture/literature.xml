@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<literature>	
+ <item>
+	<name>Anna Karenina</name>
+	<auth>Leo Tolstoy</auth>
+	<description>The novel was especially revolutionary in its treatment of women, depicting prejudices and social hardships of the time with vivid emotion.</description>
+ </item>
+ <item>
+	<name>The Great Gatsby</name>
+	<auth>F. Scott Fitzgerald</auth>
+	<description> The novel is told from the perspective of a young man named Nick Carraway who has recently moved to New York City and is befriended by his eccentric nouveau riche neighbor with mysterious origins, Jay Gatsby. The Great Gatsby provides an insider’s look into the Jazz Age of the 1920s in United States history while at the same time critiquing the idea of the “American Dream.”</description>
+ </item>
+
+</literature> 

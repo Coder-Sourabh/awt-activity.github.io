@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mystery>	
+ <item>
+	<name>And Then There Were None</name>
+	<auth>Agatha Christie</auth>
+	<description>he story follows ten people who are brought together, for various reasons, to an empty mansion on an island.</description>
+ </item>
+ <item>
+	<name>The Big Sleep</name>
+	<auth>Raymond Chandler</auth>
+	<description>Raymond Chandler’s idea of mystery strays from conventions — for him it’s less about the intricate plot and more about the atmosphere and characters.</description>
+ </item>
+
+</mystery> 

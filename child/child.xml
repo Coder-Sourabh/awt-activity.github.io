@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<child>	
+ <item>
+	<name>Doremon</name>
+	<auth>Leo Tolstoy</auth>
+	<description>This is an story of a robot which comes from future to help a boy.</description>
+ </item>
+ <item>
+	<name>Shin-Shan</name>
+	<auth>F. Scott Fitzgerald</auth>
+	<description>This is a story of a little boy who ienjoys his life.</description>
+ </item>
+
+</child> 

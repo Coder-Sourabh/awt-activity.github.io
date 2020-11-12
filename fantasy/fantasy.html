@@ -1,0 +1,46 @@
+<html>
+<head>
+<script type="text/javascript" language="javascript">
+function show_detail(str)
+{
+	var req=new XMLHttpRequest();
+	req.open("GET","fantasy.php?q="+str,true);
+	req.send(null);
+	req.onreadystatechange=function()
+	{
+	  if(req.readyState==4 && req.status==200)
+	  {
+	    document.getElementById("res").innerHTML=req.responseText;
+	  }
+	}
+}
+</script>
+ 	
+<style>
+
+</style>
+</head>
+<body bgcolor="grey">
+<h1>No of books we have in fantasy section</h1>
+<ol type="1">
+<li>A Game of Thrones</li>
+<li>The Fellowship of the Ring</li>
+<li>The Lion, the Witch and the Wardrobe</li>
+<li> The Colour of Magic</li>
+<li>The Bloody Chamber </li>
+<li>Carrie</li>
+<form>
+<h2>Choose fantasy item you want :</h2> <br>
+<select name="items" onChange="show_detail(this.value)">
+<option>Select Item</option>
+<option>A Game of Thrones</option>
+<option>The Fellowship of the Ring</option>
+<option>The Lion, the Witch and the Wardrobe</option>
+<option> The Colour of Magic</option>
+<option>The Bloody Chamber</option>
+<option>Carrie</option>
+</select>
+</form>
+<div id="res"><h2> fantasy Item Details are displayed here :</h2></div>
+</body>
+</html>

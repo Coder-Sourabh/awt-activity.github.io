@@ -1,0 +1,38 @@
+<html>
+<head>
+<script type="text/javascript" language="javascript">
+function show_detail(str)
+{
+	var req=new XMLHttpRequest();
+	req.open("GET","literature.php?q="+str,true);
+	req.send(null);
+	req.onreadystatechange=function()
+	{
+	  if(req.readyState==4 && req.status==200)
+	  {
+	    document.getElementById("res").innerHTML=req.responseText;
+	  }
+	}
+}
+</script>
+ 	
+<style>
+
+</style>
+</head>
+<body bgcolor="grey">
+<h1>No of books we have in literature section</h1>
+<ol type="1">
+<li>Anna Karenina</li>
+<li>The Great Gatsby</li>
+<form>
+<h2>Choose literature item you want :</h2> <br>
+<select name="items" onChange="show_detail(this.value)">
+<option>Select Item</option>
+<option>Anna Karenina</option>
+<option>The Great Gatsby</option>
+</select>
+</form>
+<div id="res"><h2> literature Item Details are displayed here :</h2></div>
+</body>
+</html>

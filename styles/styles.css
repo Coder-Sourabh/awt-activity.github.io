@@ -1,0 +1,60 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.content {
+    text-align: center;
+    padding-top: 10%;
+    background: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2041&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+}
+
+.heading {
+    font-size: larger;
+}
+
+.popular {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.position {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 83.7%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    /* font-weight: bold; */
+    color: rgb(255, 255, 255);
+}
+
+.card {
+    height: 40px;
+    opacity: 0.8;
+}
+
+.footer {
+    background-color: #141414;
+    color: #ddd3dd;
+    padding-top: 70px;
+}
+
+.footer-headings {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-subheadings {
+    font-size: 18px;
+}
+
+.credits {
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+<html>
+<head>
+<script type="text/javascript" language="javascript">
+function show_detail(str)
+{
+	var req=new XMLHttpRequest();
+	req.open("GET","romance.php?q="+str,true);
+	req.send(null);
+	req.onreadystatechange=function()
+	{
+	  if(req.readyState==4 && req.status==200)
+	  {
+	    document.getElementById("res").innerHTML=req.responseText;
+	  }
+	}
+}
+</script>
+ 	
+<style>
+
+</style>
+</head>
+<body bgcolor="grey">
+<h1>No of books we have in romance section</h1>
+<ol type="1">
+<li>The Proposal</li>
+<li>Gone With the Wind</li>
+<form>
+<h2>Choose romance item you want :</h2> <br>
+<select name="items" onChange="show_detail(this.value)">
+<option>Select Item</option>
+<option>The Proposal</option>
+<option>Gone With the Wind</option>
+</select>
+</form>
+<div id="res"><h2> romance Item Details are displayed here :</h2></div>
+</body>
+</html>

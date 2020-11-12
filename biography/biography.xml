@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biography>	
+ <item>
+	<name>A Beautiful Mind by Sylvia Nasar</name>
+	<auth>John Nash</auth>
+	<description>This biography of esteemed mathematician John Nash was both a finalist for the 1998 Pulitzer Prize and the basis for the award-winning film of the same name. Nasar thoroughly explores Nash’s prestigious career, from his beginnings at MIT to his work at the RAND Corporation — as well the internal battle he waged against schizophrenia, a disorder that nearly derailed his life.</description>
+ </item>
+ <item>
+	<name>Alan Turing: The Enigma</name>
+	<auth>Andrew Hodges</auth>
+	<description>Hodges’ 1983 biography of Alan Turing sheds light on the inner workings of this brilliant mathematician, cryptologist, and computer pioneer. Indeed, despite the title (a nod to his work during WWII), a great deal of the “enigmatic” Turing is laid out in this book. It covers his heroic code-breaking efforts during the war, his computer designs and contributions to mathematical biology in the years following, and of course, the vicious persecution that befell him in the 1950s — when homosexual acts were still a crime punishable by English law.</description>
+ </item>
+
+</biography> 
